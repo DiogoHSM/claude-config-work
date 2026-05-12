@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "claude-config-work",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "DiogoHSM/claude-config-work"
+      },
       "description": "Work-focused Claude Code config: session rituals, destructive-action guardrails, doc injection, lazy-loaded project context, Linear-backed backlog. Supports AWS, Snowflake, dbt, Dagster, S3, and more."
     }
   ]
