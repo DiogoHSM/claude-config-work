@@ -1,0 +1,8 @@
+{
+  "name": "claude-config-work",
+  "version": "0.1.0",
+  "description": "Work-focused Claude Code config: session rituals, destructive-action guardrails, doc injection, lazy-loaded project context, Linear-backed backlog.",
+  "author": {
+    "name": "Diogo"
+  }
+}

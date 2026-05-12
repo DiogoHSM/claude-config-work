@@ -1,0 +1,4 @@
+.DS_Store
+*.log
+.claude/SECRETS.md
+.claude/memory/
