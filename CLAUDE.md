@@ -29,11 +29,11 @@ These instructions apply to every session where this plugin is enabled.
 
 ## Slash commands
 
-- `/start` — git sync, guardrails, connectivity check, docs, memory, Linear, backlog
-- `/end-session` — review, update docs/guardrails, Linear, memory, commit, push
-- `/cnp` — one-shot commit & push
-- `/todo-add` — capture a new idea/task into the Linear backlog
-- `/todo-list` — show backlog and pick an issue to work on
+- `/work:start` — git sync, guardrails, connectivity check, docs, memory, Linear, backlog
+- `/work:end-session` — review, update docs/guardrails, Linear, memory, commit, push
+- `/work:cnp` — one-shot commit & push
+- `/work:todo-add` — capture a new idea/task into the Linear backlog
+- `/work:todo-list` — show backlog and pick an issue to work on
 
 ---
 

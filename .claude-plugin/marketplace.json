@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "claude-config-work",
+      "name": "work",
       "source": {
         "source": "github",
         "repo": "DiogoHSM/claude-config-work"

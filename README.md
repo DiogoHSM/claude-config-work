@@ -4,7 +4,7 @@ Claude Code plugin with work-oriented session rituals, guardrails, hook-based sa
 
 ## What it ships
 
-- **Commands**: `/start`, `/end-session`, `/cnp`, `/todo-add`, `/todo-list`
+- **Commands**: `/work:start`, `/work:end-session`, `/work:cnp`, `/work:todo-add`, `/work:todo-list`
 - **Hooks**:
   - `SessionStart` — runs `check-context.sh`, surfaces active cloud/CLI context
   - `PreToolUse / Bash` — blocks destructive commands when active context diverges from `INFRASTRUCTURE.md`
@@ -19,7 +19,7 @@ Add this repo as a Claude Code marketplace and install the plugin at **user scop
 
 ```bash
 /plugin marketplace add DiogoHSM/claude-config-work
-/plugin install claude-config-work
+/plugin install work
 ```
 
 User-scope install means the plugin is automatically enabled for **every project** on the machine — no per-project setup required.
@@ -31,7 +31,7 @@ If a specific repo shouldn't use this plugin, add to its `.claude/settings.json`
 ```json
 {
   "enabledPlugins": {
-    "claude-config-work@claude-config-work": false
+    "work@claude-config-work": false
   }
 }
 ```
