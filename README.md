@@ -15,23 +15,23 @@ Claude Code plugin with work-oriented session rituals, guardrails, hook-based sa
 
 ## Install
 
-Add this repo as a Claude Code marketplace and install the plugin:
+Add this repo as a Claude Code marketplace and install the plugin at **user scope**:
 
 ```bash
-/plugin marketplace add <git-url-or-local-path>
+/plugin marketplace add DiogoHSM/claude-config-work
 /plugin install claude-config-work
 ```
 
-Or for local dev, point Claude Code at this directory.
+User-scope install means the plugin is automatically enabled for **every project** on the machine — no per-project setup required.
 
-## Enable per project
+## Disable for a specific project (opt-out)
 
-In a project's `.claude/settings.json`:
+If a specific repo shouldn't use this plugin, add to its `.claude/settings.json`:
 
 ```json
 {
   "enabledPlugins": {
-    "claude-config-work@<marketplace>": true
+    "claude-config-work@claude-config-work": false
   }
 }
 ```
